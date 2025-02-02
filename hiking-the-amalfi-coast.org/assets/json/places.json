@@ -1,0 +1,105 @@
+{
+  "luoghi": [
+    {
+      "id": "luogo1",
+      "nome": "Monte dell'Avvocata",
+      "immagini": [
+        "images/places/avvocata1.jpg",
+        "images/places/avvocata2.jpg",
+        "images/places/avvocata3.jpg",
+        "images/places/avvocata4.jpg"
+      ],
+      "descrizione": "La chiesa che svetta alla sommità del monte Falerzio, alle cui pendici si snoda l’abitato di Maiori, è dedicata alla Beata Vergine Avvocata e fa parte di un complesso la cui parte più antica è costituita dalla grotta.\nNel 1485, infatti, ad un pastore maiorese apparve in questa grotta la Vergine che gli chiese di edificare un luogo di preghiera proprio lì dove gli era apparsa, presentandosi col titolo di Avvocata. Il Cinnamo (così si chiamava il pastore) edificò nella grotta una cappella, ingrandita in seguito dai Padri Camaldolesi che nel 1682 presero in custodia il convento che era lì sorto. Il Cinnamo, oltre alla grotta, rese luogo di culto varie costruzioni che egli stesso aveva erette: una chiesa che lo storico Camera così descrive: “…ad un’unica navata ed un solo altare…La porta maggiore della Chiesa era rivolta a settentrione con davanti un ampio cortile lastricato in pietra”. Questa chiesa, nel momento in cui fu soppresso il convento, andò in disuso ed, in seguito ad un incendio nel 1838, fu distrutta.\nLa parte più importante del complesso è la grotta, dove è possibile vedere la parte esterna della cappella con la scena dell’Annunciazione, mentre sull’altare è ritratta l’apparizione della Vergine al pastore; sulla volta, invece, sono rappresentati i dodici apostoli circondati da angeli. Da questa cappella si aprono due scale che conducono, una a due pozzi per la raccolta dell’acqua, e l’altra ad una cavità più vasta, orse originaria sede del culto.\nCon la soppressione del convento anche la grotta non fu più frequentata e solo nel 1892 si ebbe la concessione di tutte le strutture per il pubblico culto, riedificando quindi la chiesa.\nPoco lontano dalla cappella vi è un’altra cavità con strutture architettoniche, chiamata Grotta Salese dal nome del brigante che qui si nascondeva. Si possono vedere sulla parete di fondo della grotta una serie di tre piccoli archi, di cui quello centrale, più ampio, chiuso con funzione di fontana per l’acqua che fuoriusciva dalla sorgente. Le strutture sono ottocentesche."
+    },
+    {
+      "id": "luogo2",
+      "nome": "",
+      "immagini": [
+        "images/places/",
+        "images/places/",
+        "images/places/"
+      ],
+      "descrizione": ""
+    },
+    {
+      "id": "luogo3",
+      "nome": "",
+      "immagini": [
+        "images/places/",
+        "images/places/",
+        "images/places/"
+      ],
+      "descrizione": ""
+    },
+    {
+      "id": "luogo4",
+      "nome": "",
+      "immagini": [
+        "images/places/",
+        "images/places/",
+        "images/places/"
+      ],
+      "descrizione": ""
+    },
+    {
+      "id": "luogo5",
+      "nome": "",
+      "immagini": [
+        "images/places/",
+        "images/places/",
+        "images/places/"
+      ],
+      "descrizione": ""
+    },
+    {
+      "id": "luogo6",
+      "nome": "",
+      "immagini": [
+        "images/places/",
+        "images/places/",
+        "images/places/"
+      ],
+      "descrizione": ""
+    },
+    {
+      "id": "luogo7",
+      "nome": "",
+      "immagini": [
+        "images/places/",
+        "images/places/",
+        "images/places/"
+      ],
+      "descrizione": ""
+    },
+    {
+      "id": "luogo8",
+      "nome": "",
+      "immagini": [
+        "images/places/",
+        "images/places/",
+        "images/places/"
+      ],
+      "descrizione": ""
+    },
+    {
+      "id": "luogo9",
+      "nome": "",
+      "immagini": [
+        "images/places/",
+        "images/places/",
+        "images/places/"
+      ],
+      "descrizione": ""
+    },
+    {
+      "id": "luogo10",
+      "nome": "",
+      "immagini": [
+        "images/places/",
+        "images/places/",
+        "images/places/"
+      ],
+      "descrizione": ""
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "eventi": [
+    {
+      "data": "2025-09-10",
+      "titolo": "Escursione “Sentiero degli Dei”",
+      "descrizione": "Evento futuro in programma. Unisciti a noi!",
+      "immagini": [
+        "images/events/futuro1.jpg",
+        "images/events/futuro2.jpg"
+      ]
+    },
+    {
+      "data": "2024-08-15",
+      "titolo": "Ferragosto in vetta",
+      "descrizione": "Descrizione di cosa è successo, quante persone hanno partecipato, curiosità...",
+      "immagini": [
+        "images/events/passato1.jpg",
+        "images/events/passato2.jpg"
+      ]
+    },
+    {
+      "data": "2025-06-20",
+      "titolo": "Giornata di Pulizia Ambientale",
+      "descrizione": "Unisciti a noi per mantenere puliti i sentieri e preservare la bellezza della Costiera Amalfitana.",
+      "immagini": [
+        "images/events/pulizia1.jpg"
+      ]
+    }
+  ]
+}

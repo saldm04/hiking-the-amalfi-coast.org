@@ -1,0 +1,48 @@
+<!-- navbar.html -->
+<nav class="navbar navbar-expand-xxl navbar-dark bg-primary fixed-top">
+    <div class="container-fluid">
+        <!-- Logo e nome associazione -->
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img id="navbar-logo" src="images/logoConScritta3.jpg" alt="Logo" height="100" class="me-2">
+        </a>
+
+        <!-- Bottone per il menu "collassato" su mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Contenuto del menu di navigazione -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Eventi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="places.html">Luoghi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Progetti</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Galleria</a>
+                </li>
+            </ul>
+            <!-- Selettore lingua -->
+            <div class="dropdown ms-3">
+                <button class="btn btn-light dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    IT
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                    <li><a class="dropdown-item" href="#">IT</a></li>
+                    <li><a class="dropdown-item" href="#">EN</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Importa il file script.js -->
+<script src="script.js"></script>

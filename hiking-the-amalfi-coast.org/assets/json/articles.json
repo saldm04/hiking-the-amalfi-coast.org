@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Hiking The Amalfi Coast e AUSF Napoli insieme per il futuro della pineta di Capo d'Orso",
+    "description": "L’associazione Hiking the Amalfi Coast, da sempre impegnata e attenta alla valorizzazione del territorio della Costiera Amalfitana, ha organizzato la scorsa domenica, 26 gennaio, una giornata di monitoraggio e analisi del territorio con gli studenti dell’AUSF (Associazione Universitaria degli Studenti Forestali) di Napoli.",
+    "image": "images/articles/ausf-pineta.jpeg",
+    "alt": "AUSF Napoli e Hiking The Amalfi Coast insieme per il futuro della pineta di Capo d'Orso",
+    "link": "https://quotidianocostiera.it/hiking-the-amalfi-coast-e-ausf-napoli-insieme-per-il-futuro-della-pineta-di-capo-dorso/"
+  },
+  {
+    "title": "Minori, l’Associazione Hiking The Amalfi Coast si prende cura del verde attorno al Campanile dell’Annunziata",
+    "description": "A Minori, l'Associazione Hiking The Amalfi Coast ha recentemente condotto interventi di diserbamento e di pulizia straordinaria presso il Campanile dell'Annunziata, uno dei simboli del borgo.",
+    "image": "images/articles/campanile-annunziata.jpg",
+    "alt": "Campanile dell'Annunziata a Minori",
+    "link": "https://www.ilvescovado.it/it/territorio-e-ambiente-23/minori-l-associazione-hiking-the-amalfi-coast-si-149016/article"
+  },
+  {
+    "title": "Maiori: alla scoperta del Sentiero dei Monaci con l’associazione “Hiking the Amalfi Coast”",
+    "description": "Grazie all’impegno e alla dedizione dei volontari dell’associazione “Hiking the Amalfi Coast”, il sentiero è stato ripulito, sistemato e reso, quindi, fruibile, offrendo agli amanti del trekking e della natura un’occasione unica per esplorare uno degli angoli più affascinanti della Costiera Amalfitana.",
+    "image": "images/articles/sentiero-dei-monaci-inaugurazione.jpg",
+    "alt": "Sentiero dei Monaci a Maiori",
+    "link": "https://quotidianocostiera.it/maiori-alla-scoperta-del-sentiero-dei-monaci-con-lassociazione-hiking-the-amalfi-coast/"
+  },
+  {
+    "title": "Ambiente: ricercatori Unesco in Costa d'Amalfi per studiare le criticità del territorio",
+    "description": "Si è conclusa nei giorni scorsi la collaborazione tra l’associazione Hiking The Amalfi Coast e la Acce Academy, una start up di ricercatori patrocinata dall’Unesco che si preoccupa dell’impatto del cambiamento climatico sui siti storici-ambientali.",
+    "image": "images/articles/unesco-bamberg.jpeg",
+    "alt": "Ricercatori Unesco in Costa d'Amalfi",
+    "link": "https://quotidianocostiera.it/ambiente-ricercatori-unesco-in-costa-damalfi-per-studiare-le-criticita-del-territorio/"
+  },
+  {
+    "title": "Maiori, volontari di \"Hiking the Amalfi Coast\" riqualificano l’area verde attrezzata per i pic-nic al Demanio",
+    "description": "A Maiori, l'area verde attrezzata per i pic-nic del Demanio ha ritrovato l'antico splendore. Una lodevole iniziativa realizzata dai ragazzi di Hiking the Amalfi Coast, che hanno recuperato un'area soggetta ad abbandono e degrado.",
+    "image": "images/articles/intervento-tavoli-demanio.jpg",
+    "alt": "Intervento tavoli Demanio a Maiori",
+    "link": "https://www.maiorinews.it/it/territorio-e-ambiente-23/maiori-volontari-di-hiking-the-amalfi-coast-riq-138849/article"
+  },
+  {
+    "title": "\"Hiking the Amalfi Coast\": impatto positivo sulle spiagge di Maiori e Minori",
+    "description": "La comunità locale e i visitatori della Costiera Amalfitana stanno rispondendo con entusiasmo all'iniziativa di pulizia delle spiagge promossa dall'associazione \"Hiking the Amalfi Coast\". Dopo il successo dello scorso sabato a Maiori, l'organizzazione è pronta a ripetere l'impresa domani nella vicina Minori.",
+    "image": "images/articles/pulizia-spiaggia.jpg",
+    "alt": "Pulizia spiagge Maiori e Minori",
+    "link": "https://www.maiorinews.it/it/territorio-e-ambiente-23/hiking-the-amalfi-coast-impatto-positivo-sulle-135433/article"
+  }
+]
