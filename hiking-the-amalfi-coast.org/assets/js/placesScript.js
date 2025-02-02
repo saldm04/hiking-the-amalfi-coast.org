@@ -7,20 +7,27 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(data => {
-            // Ottieni i container dei link nelle due sidebar
-            const sidebarFixed = document.getElementById('places-sidebar');
             const sidebarOffcanvas = document.getElementById('places-sidebar-offcanvas');
             const content = document.getElementById('places-content');
 
             data.luoghi.forEach(luogo => {
-                // Crea il link per la sidebar
+                // Crea il link per l'offcanvas
                 const link = document.createElement('a');
                 link.classList.add('list-group-item', 'list-group-item-action');
                 link.href = `#${luogo.id}`;
                 link.textContent = luogo.nome;
-                // Aggiungi il link sia alla sidebar fissa che a quella offcanvas
-                if(sidebarFixed) sidebarFixed.appendChild(link);
-                if(sidebarOffcanvas) sidebarOffcanvas.appendChild(link.cloneNode(true));
+
+                // Chiudi l'offcanvas al click sul link
+                link.addEventListener('click', () => {
+                    const offcanvasEl = document.getElementById('offcanvasSidebar');
+                    const offcanvasInstance = bootstrap.Offcanvas.getInstance(offcanvasEl);
+                    if (offcanvasInstance) {
+                        offcanvasInstance.hide();
+                    }
+                });
+
+                // Aggiungi il link all'offcanvas
+                sidebarOffcanvas.appendChild(link);
 
                 // Crea la sezione del luogo nel contenuto principale
                 const section = document.createElement('section');
@@ -35,10 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const descrizione = document.createElement('p');
                 descrizione.textContent = luogo.descrizione;
 
-                /*
-                  Crea il wrapper per la galleria in modalità flex in modo che
-                  i pulsanti siano posizionati ai lati del container delle immagini
-                */
+                // Crea il wrapper per la galleria
                 const galleryWrapper = document.createElement('div');
                 galleryWrapper.classList.add('d-flex', 'align-items-center', 'mb-3');
 
@@ -79,7 +83,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     img.style.maxHeight = '200px';
                     img.alt = luogo.nome;
                     img.addEventListener('click', () => {
-                        // Imposta il titolo della modal e l'immagine
                         document.querySelector('#imageModalLabel').textContent = luogo.nome;
                         document.querySelector('#modalImage').src = src;
                         const myModal = new bootstrap.Modal(document.getElementById('imageModal'));
@@ -88,14 +91,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     immaginiContainer.appendChild(img);
                 });
 
-                // Eventi di scroll per i pulsanti
+                // Gestione degli eventi di scroll
                 btnPrev.addEventListener('click', () => {
                     immaginiContainer.scrollBy({
                         left: -300,
                         behavior: 'smooth'
                     });
                 });
-
                 btnNext.addEventListener('click', () => {
                     immaginiContainer.scrollBy({
                         left: 300,

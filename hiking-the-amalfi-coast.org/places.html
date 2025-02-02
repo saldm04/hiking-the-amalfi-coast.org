@@ -12,9 +12,11 @@
 <div id="navbar-placeholder"></div>
 
 <!-- Pulsante per il menu (offcanvas) -->
-<button id="menu-toggle-btn" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
-    Menu Luoghi
-</button>
+<div id="container-btn-luoghi">
+    <button id="menu-toggle-btn" class="btn btn-luoghi" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
+        Esplora i luoghi
+    </button>
+</div>
 
 <div class="container-xxl my-5">
     <div class="row">
@@ -29,7 +31,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel">
     <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasSidebarLabel">Luoghi</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Chiudi"></button>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Chiudi"></button>
     </div>
     <div class="offcanvas-body">
         <div class="list-group" id="places-sidebar-offcanvas">

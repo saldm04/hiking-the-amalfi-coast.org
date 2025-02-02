@@ -82,6 +82,8 @@ function updateLogo() {
     }
 }
 
-// Esegui la funzione all'avvio e ad ogni ridimensionamento della finestra
+// Esegui la funzione all'avvio e ad ogni ridimensionamento della finestra e cambio di pagina
 window.addEventListener("load", updateLogo);
 window.addEventListener("resize", updateLogo);
+window.addEventListener("orientationchange", updateLogo);
+document.addEventListener("DOMContentLoaded", updateLogo);

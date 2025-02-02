@@ -34,6 +34,7 @@ body {
 
 /* Navbar */
 .navbar-dark.bg-primary {
+    z-index: 1100;
     background-color: #003366 !important;
 }
 
@@ -51,6 +52,22 @@ body {
 .btn-primary {
     background-color: #0080FF !important; /* Celeste */
     border-color: #0080FF !important;
+}
+
+#container-btn-luoghi {
+    position: fixed;
+    top: 126px; /* stesso offset verticale del pulsante precedente */
+    left: 0;
+    width: 100%;
+    background-color: #003366; /* sfondo blu come la navbar */
+    z-index: 1050;
+    padding: 25px 0;
+    text-align: center; /* centra il contenuto */
+}
+
+.btn-luoghi {
+    border-color: #000000 !important;
+    background-color: #ffffff !important;
 }
 
 /* Footer */
@@ -149,7 +166,7 @@ footer .d-flex a {
 #menu-toggle-btn {
     display: block !important;
     position: fixed;
-    top: 140px; /* Regola l'offset verticale se necessario */
+    top: 130px; /* Regola l'offset verticale se necessario */
     left: 50%;
     transform: translateX(-50%);
     z-index: 1050;
@@ -163,6 +180,9 @@ footer .d-flex a {
 /* ------------------------------ */
 /* Stili per l'offcanvas (menu a comparsa) */
 /* ------------------------------ */
+#offcanvasSidebar {
+    z-index: 1200;
+}
 
 #offcanvasSidebar .offcanvas-header {
     background-color: #003366;
@@ -221,6 +241,10 @@ footer .d-flex a {
 /* Nasconde la scrollbar per i container specificati */
 .no-scrollbar::-webkit-scrollbar {
     display: none;
+}
+
+#imageModal {
+    z-index: 2500;
 }
 
 /* ------------------------------ */
