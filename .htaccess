@@ -1,1 +1,24 @@
+# Error 404 Page
 ErrorDocument 404 /404.html
+
+# Abilitare Compressione Gzip
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+</IfModule>
+
+# Abilitare Cache del Browser
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/html "access plus 1 day"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType text/javascript "access plus 1 week"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType application/pdf "access plus 1 month"
+</IfModule>
+
+# Forzare HTTPS (se hai SSL attivo)
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]

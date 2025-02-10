@@ -1,0 +1,42 @@
+{
+  "aree": [
+    {
+      "id": "area1",
+      "nome": "Parco Naturale di Capo d'Orso - Maiori",
+      "immagini": [
+        "images/places/capodorso1.jpeg",
+        "images/places/capodorso2.jpg",
+        "images/places/capodorso3.jpg",
+        "images/places/capodorso4.jpeg",
+        "images/places/capodorso5.jpg",
+        "images/places/capodorso6.jpg",
+        "images/places/capodorso7.jpg"
+      ],
+      "descrizione": "Il Parco Naturale di Capo d'Orso, situato nel comune di Maiori lungo la Costiera Amalfitana, si estende su un territorio di circa 3.000 ettari e rappresenta un'area di notevole interesse ambientale, storico e paesaggistico. Il promontorio, che deve il suo nome alla caratteristica forma che ricorda la testa di un orso, è parte del versante meridionale dei Monti Lattari e presenta una natura geologica prevalentemente calcareo-dolomitica. L’aspetto ripido e scosceso del territorio è arricchito da numerose grotte di interesse naturalistico e storico, tra cui la Grotta Porta di Monte Piano, costituita da una serie di cavità a diversi livelli collegate da cunicoli e passaggi, e la Grotta dell’Uomo a Cavallo. Di particolare rilievo è anche la Grotta dell’Affresco, che testimonia fenomeni eremitici di matrice orientale a partire dal X secolo, con evidenti interventi antropici come un muro di sostruzione in pietra e tracce di intonaco. La vegetazione del promontorio è dominata dalla macchia mediterranea, con specie come erica, mirto, lentisco e alaterno, mentre sulle falesie a picco sul mare crescono ginepro fenicio e palma nana, un relitto biogeografico di grande importanza. Nelle aree meno antropizzate si conserva la macchia alta, o macchia-foresta, erede dell’antica selva sempreverde, con le foreste di leccio alle basse quote e i boschi di castagno alle quote più elevate. Il parco è popolato da numerose specie della fauna mediterranea, che ne accrescono il valore naturalistico. Tra i mammiferi si trovano la volpe, la faina, il riccio, il moscardino, la talpa e il topo selvatico, mentre il tasso, seppur sempre più raro, è ancora presente. L’avifauna è particolarmente ricca, con specie come la poiana, il gheppio, la ghiandaia e il gabbiano reale. Tuttavia, la vera gemma faunistica dell’area è il falco pellegrino, un rapace in via di estinzione a livello mondiale, che qui trova un habitat favorevole per la nidificazione. Oltre al suo valore naturalistico, l’area di Capo d’Orso è di grande interesse storico. Nel 1528, nelle acque antistanti il promontorio, si svolse una battaglia navale tra la flotta francese e quella spagnola, un evento che aggiunge ulteriore rilevanza al sito. Per gli appassionati di natura, storia e trekking, il Parco Naturale di Capo d’Orso offre un’esperienza unica, combinando paesaggi mozzafiato, biodiversità e testimonianze del passato in un equilibrio straordinario."
+    },
+    {
+      "id": "area2",
+      "nome": "Valle del Demanio - Maiori",
+      "immagini": [
+        "images/places/demanio1.jpeg",
+        "images/places/demanio2.jpeg",
+        "images/places/demanio3.jpg",
+        "images/places/demanio4.jpeg",
+        "images/places/demanio5.jpg"
+      ],
+      "descrizione": "La valle del “Demanio” nel territorio del comune di Maiori è caratterizzata dalla presenza di due distinti piccoli corsi d’acqua, denominati rispettivamente “ Acqua calda” e “Rio Demanio”,che scorrono in due incisioni convergenti all’altezza della cd. sorgente del Demanio confluendo , dopo un percorso di alcune centinaia di metri,  nel torrente Reginna. L’ampia valle è contornata da ardite creste attraverso le quali erano un tempo frequentati i passi per Cava de’ Tirreni, posta proprio sul versante opposto. L’ambiente  è caratterizzato da una notevole umidità che favorisce il rigoglio della flora tipica del cd. “Bosco misto”: ontano, castagno, orniello, acero, carpinella sono le essenze più comuni ,mentre il leccio ed altre essenze sempreverdi quali il corbezzolo, l’erica  il lentisco occupano gli spazi più assolati. Come nella, per molti aspetti simile, Valle delle Ferriere della vicina Amalfi, anche nel  Demanio si registra la presenza di rare felci come  Pteris Cretica,  Pteris Vittata e la piccola pianta carnivora Pinguicola Hirtiflora; anche qui probabilmente era presente qualche esemplare di Woodwardia radicans, come del resto viene riferito da qualche studioso che segnalava la presenza di tale rarità vegetale anche nella “vallata di Majori “ (Nevile-Reid 1868). Fino al 1993 in uno degli angoli più selvaggi della vallata è vissuto un colossale   esemplare di leccio (quercus ilex), ultimo rappresentante delle fitte e cupe foreste che rivestivano un tempo i monti della Costiera. Le sue dimensioni, in considerazione della specie, erano impressionanti, la sua età doveva essere stimata in 5 o 600 anni, facevano di questo patriarca uno degli esseri più grandi ed antichi dell’intero territorio. La tradizione popolare lo tramandava come “ O’RI’ LUCINE”, indicando con tale denominazione,che poteva essere tradotta in lingua come “ i due lecci”, la singolare biforcazione che  assumeva il tronco. Per quanto riguarda la fauna si è verificata la presenza, oltre che di micromammiferi normalmente comuni nel territorio della Costiera amalfitana, della volpe, di mustelidi anche di notevoli dimensioni come il tasso, la faina ed addirittura della rara lontra, la cui presenza nel Demanio come nella Valle delle Ferriere è stata oggetto di  recenti studi. Tra gli uccelli sono rappresentate numerose specie, tra le quali le più significative appaiono quelle dei rapaci diurni (poiana, gheppio, sparviero) e notturni (civetta, allocco e, forse, barbagianni)."
+    },
+    {
+      "id": "area3",
+      "nome": "Valle delle Ferriere - Scala",
+      "immagini": [
+        "images/places/ferriere1.jpg",
+        "images/places/ferriere2.jpg",
+        "images/places/ferriere3.jpg",
+        "images/places/ferriere4.jpg",
+        "images/places/ferriere5.jpg"
+      ],
+      "descrizione": "La Valle delle Ferriere è una riserva naturale situata tra i comuni di Scala e Amalfi, lungo la Costiera Amalfitana. Questa valle profonda e lussureggiante si estende per circa sei chilometri, iniziando dalle montagne di Scala e terminando nel territorio di Amalfi. Protetta dai freddi venti settentrionali grazie alle alte creste rocciose e aperta alle calde correnti umide provenienti dal mare, la valle gode di un microclima unico che ha permesso la conservazione di specie vegetali rare, come la felce gigante Woodwardia radicans, risalente al periodo pre-glaciale. Lungo il percorso, è possibile ammirare le rovine di antiche ferriere e cartiere risalenti al Medioevo, testimonianze dell'ingegnosità degli abitanti locali che sfruttavano l'energia idrica del torrente Canneto per alimentare queste strutture preindustriali. La parte superiore della valle, nel territorio di Scala, è nota come Valle delle Ferriere per la presenza di ferriere, mentre la parte inferiore, vicino ad Amalfi, è chiamata Valle dei Mulini per le numerose cartiere storiche presenti."
+    }
+  ]
+}

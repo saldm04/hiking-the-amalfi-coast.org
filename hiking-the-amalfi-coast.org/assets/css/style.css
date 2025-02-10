@@ -1,4 +1,5 @@
 body {
+    font-family: "Roboto", sans-serif;
     margin-top: 126px;
 }
 
@@ -49,6 +50,29 @@ body {
     color: rgba(255, 255, 255, 1) !important;
 }
 
+/* Stili per il dropdown in modo che corrispondano alla navbar */
+.dropdown-menu {
+    background-color: #003366; /* stesso sfondo della navbar */
+    border: none;
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 1.2rem; /* stessa dimensione del font */
+    padding: 0.75rem 1.5rem !important; /* stesso padding */
+    color: rgba(255, 255, 255, 0.8) !important; /* stesso colore */
+    transition: color 0.3s ease-in-out;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    color: rgba(255, 255, 255, 1) !important; /* colore al passaggio del mouse */
+    background-color: transparent; /* evita sovrapposizioni di background */
+}
+
+.home-section {
+    scroll-margin-top: 126px;
+}
+
 .btn-primary {
     background-color: #0080FF !important; /* Celeste */
     border-color: #0080FF !important;
@@ -56,7 +80,7 @@ body {
 
 #container-btn-luoghi {
     position: fixed;
-    top: 126px; /* stesso offset verticale del pulsante precedente */
+    top: 125px; /* stesso offset verticale del pulsante precedente */
     left: 0;
     width: 100%;
     background-color: #003366; /* sfondo blu come la navbar */
@@ -170,6 +194,8 @@ footer .d-flex a {
     left: 50%;
     transform: translateX(-50%);
     z-index: 1050;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 /* Contenuto principale */
@@ -245,6 +271,16 @@ footer .d-flex a {
 
 #imageModal {
     z-index: 2500;
+}
+
+#collabList a {
+    text-decoration: none;
+    color: #212529;
+}
+
+#collabList a:hover {
+    color: black;
+    text-decoration: underline;
 }
 
 /* ------------------------------ */

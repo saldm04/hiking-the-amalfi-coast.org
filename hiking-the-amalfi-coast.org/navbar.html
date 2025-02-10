@@ -1,4 +1,3 @@
-<!-- navbar.html -->
 <nav class="navbar navbar-expand-xxl navbar-dark bg-primary fixed-top">
     <div class="container-fluid">
         <!-- Logo e nome associazione -->
@@ -7,7 +6,8 @@
         </a>
 
         <!-- Bottone per il menu "collassato" su mobile -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -17,22 +17,34 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="events.html">Eventi</a>
+                <!-- Dropdown Associazione con le voci aggiuntive -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="associazioneDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Associazione
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="associazioneDropdown">
+                        <li><a class="dropdown-item" href="index.html#chiSiamo">Chi siamo</a></li>
+                        <li><a class="dropdown-item" href="index.html#articlesContainer">Parlano di noi</a></li>
+                        <li><a class="dropdown-item" href="index.html#collabContainer">Collaborazioni</a></li>
+                        <li><a class="dropdown-item" href="index.html#contatti">Contattaci</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Eventi</a></li>
+                        <li><a class="dropdown-item" href="#">Progetti</a></li>
+                        <li><a class="dropdown-item" href="statuto.html">Statuto</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="places.html">Luoghi</a>
+                    <a class="nav-link" href="places.html">Luoghi e aree protette</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Progetti</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Galleria</a>
+                    <a class="nav-link" href="galleria.php">Galleria</a>
                 </li>
             </ul>
             <!-- Selettore lingua -->
             <div class="dropdown ms-3">
-                <button class="btn btn-light dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-light dropdown-toggle" type="button" id="languageDropdown"
+                        data-bs-toggle="dropdown" aria-expanded="false">
                     IT
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="languageDropdown">
