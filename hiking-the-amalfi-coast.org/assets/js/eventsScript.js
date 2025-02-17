@@ -1,5 +1,3 @@
-// assets/js/eventsScript.js
-
 document.addEventListener('DOMContentLoaded', () => {
     fetch('assets/json/events.json') // Assicurati che il percorso sia corretto
         .then(response => {
@@ -16,12 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Ottieni la data corrente senza l'ora per il confronto
             const oggi = new Date();
-            oggi.setHours(0,0,0,0);
+            oggi.setHours(0, 0, 0, 0);
 
             data.eventi.forEach(evento => {
                 // Crea l'oggetto Date per l'evento
                 const dataEvento = new Date(evento.data);
-                dataEvento.setHours(0,0,0,0); // Imposta l'ora a mezzanotte per il confronto
+                dataEvento.setHours(0, 0, 0, 0); // Imposta l'ora a mezzanotte per il confronto
 
                 // Determina se l'evento è futuro o passato
                 const tipo = dataEvento >= oggi ? 'futuro' : 'passato';
@@ -45,35 +43,81 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Titolo
                 const titolo = document.createElement('h3');
                 titolo.classList.add('fw-bold');
-                titolo.textContent = `${dataFormattata} - ${evento.titolo}`;
+                titolo.textContent = `${evento.periodo} - ${evento.titolo}`;
 
                 // Descrizione
                 const descrizione = document.createElement('p');
                 descrizione.textContent = evento.descrizione;
 
-                // Immagini
-                const row = document.createElement('div');
-                row.classList.add('row');
+                // Galleria immagini con frecce e modale
+                const galleryWrapper = document.createElement('div');
+                galleryWrapper.classList.add('d-flex', 'align-items-center', 'mb-3');
+
+                const btnPrev = document.createElement('button');
+                btnPrev.classList.add('btn');
+                btnPrev.innerHTML = `<span class="carousel-control-prev-icon" aria-hidden="true"></span>`;
+                btnPrev.style.flexShrink = '0';
+                btnPrev.style.backgroundColor = '#003366';
+                btnPrev.style.width = '35px';
+                btnPrev.style.height = '35px';
+                btnPrev.style.padding = '0';
+
+                const immaginiContainer = document.createElement('div');
+                immaginiContainer.classList.add('d-flex', 'flex-row', 'overflow-auto', 'gap-2', 'no-scrollbar');
+                immaginiContainer.style.scrollBehavior = 'smooth';
+                immaginiContainer.style.flexGrow = '1';
+                immaginiContainer.style.margin = '0 10px';
+                immaginiContainer.style.msOverflowStyle = 'none';
+                immaginiContainer.style.scrollbarWidth = 'none';
+
+                const btnNext = document.createElement('button');
+                btnNext.classList.add('btn');
+                btnNext.innerHTML = `<span class="carousel-control-next-icon" aria-hidden="true"></span>`;
+                btnNext.style.flexShrink = '0';
+                btnNext.style.backgroundColor = '#003366';
+                btnNext.style.width = '35px';
+                btnNext.style.height = '35px';
+                btnNext.style.padding = '0';
 
                 evento.immagini.forEach(src => {
-                    const col = document.createElement('div');
-                    col.classList.add('col-6', 'col-md-3');
-
                     const img = document.createElement('img');
                     img.src = src;
-                    img.classList.add('img-fluid', 'mb-2');
+                    img.classList.add('img-fluid');
+                    img.style.maxHeight = '200px';
                     img.alt = `Foto evento ${tipo}`;
-
-                    col.appendChild(img);
-                    row.appendChild(col);
+                    // Al click, apri il modale impostando titolo e immagine
+                    img.addEventListener('click', () => {
+                        document.querySelector('#imageModalLabel').textContent = `${evento.periodo} - ${evento.titolo}`;
+                        document.querySelector('#modalImage').src = src;
+                        const myModal = new bootstrap.Modal(document.getElementById('imageModal'));
+                        myModal.show();
+                    });
+                    immaginiContainer.appendChild(img);
                 });
 
-                // Assembla il contenuto
+                btnPrev.addEventListener('click', () => {
+                    immaginiContainer.scrollBy({
+                        left: -300,
+                        behavior: 'smooth'
+                    });
+                });
+                btnNext.addEventListener('click', () => {
+                    immaginiContainer.scrollBy({
+                        left: 300,
+                        behavior: 'smooth'
+                    });
+                });
+
+                galleryWrapper.appendChild(btnPrev);
+                galleryWrapper.appendChild(immaginiContainer);
+                galleryWrapper.appendChild(btnNext);
+
+                // Assembla il contenuto dell'evento
                 timelineContent.appendChild(titolo);
                 timelineContent.appendChild(descrizione);
-                timelineContent.appendChild(row);
+                timelineContent.appendChild(galleryWrapper);
 
-                // Assembla l'evento
+                // Assembla l'evento completo
                 timelineItem.appendChild(timelineIcon);
                 timelineItem.appendChild(timelineContent);
 

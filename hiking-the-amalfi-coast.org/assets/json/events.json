@@ -1,29 +1,148 @@
 {
   "eventi": [
     {
-      "data": "2025-09-10",
-      "titolo": "Escursione “Sentiero degli Dei”",
-      "descrizione": "Evento futuro in programma. Unisciti a noi!",
+      "data": "2023-04-13",
+      "periodo": "13 Aprile 2023",
+      "titolo": "Nasce Hiking The Amalfi Coast",
+      "descrizione": "Nasce Hiking The Amalfi Coast, un'idea di un gruppo di amici che condividono la passione per la natura e la montagna. Oggi ci costituiamo come vera e propria associazione che ha come scopo quello di promuovere, sviluppare e preservare il nostro territorio. Let's begin!",
       "immagini": [
-        "images/events/futuro1.jpg",
-        "images/events/futuro2.jpg"
+        "images/events/fondazione.jpg",
+        "images/events/fondazione-gruppo.jpeg",
+        "images/events/fondazione-smdm.jpg"
       ]
     },
     {
-      "data": "2024-08-15",
-      "titolo": "Ferragosto in vetta",
-      "descrizione": "Descrizione di cosa è successo, quante persone hanno partecipato, curiosità...",
+      "data": "2023-12-01",
+      "periodo": "Dicembre 2023",
+      "titolo": "Interventi di manutenzione sentiero 307 e 307A",
+      "descrizione": "Bonifica iniziale della bretella che conduce al sentiero CAI 307A, affiancando le mura sud del castello di San Nicola de Thoro-Plano, e del sentiero CAI 307, che conduce al Santuario dell'Avvocata, partendo da località San Vito fino a Località Santa Maria.",
+        "immagini": [
+            "images/events/manutenzione-dicembre-2023-1.jpg",
+            "images/events/manutenzione-dicembre-2023-2.jpeg",
+            "images/events/manutenzione-dicembre-2023-3.jpg",
+            "images/events/manutenzione-dicembre-2023-4.jpg",
+            "images/events/manutenzione-dicembre-2023-5.jpg",
+            "images/events/manutenzione-dicembre-2023-6.jpg",
+            "images/events/manutenzione-dicembre-2023-7.jpg",
+            "images/events/manutenzione-dicembre-2023-8.jpg",
+            "images/events/manutenzione-dicembre-2023-9.jpg"
+        ]
+    },
+    {
+      "data": "2023-12-28",
+      "periodo": "28 dicembre 2023",
+      "titolo": "Escursione di fine anno alle Grotte di Capo d'Orso",
+      "descrizione": "Una bellissima giornata all’insegna della natura e dell’archeologia monastica dell’alto medioevo in Costiera Amalfitana. Siamo nel comune di Maiori, nella Riserva Integrale di Capo d'Orso. Esplorare una terra così ricca, ritrovare la pace interiore e vedere con mano come vivevano i monaci cenobiti.",
       "immagini": [
-        "images/events/passato1.jpg",
-        "images/events/passato2.jpg"
+        "images/events/openday-2023-1.jpg",
+        "images/events/openday-2023-2.jpg",
+        "images/events/openday-2023-3.jpg",
+        "images/events/openday-2023-4.jpg",
+        "images/events/openday-2023-5.jpg",
+        "images/events/openday-2023-6.jpg",
+        "images/events/openday-2023-7.jpg"
       ]
     },
     {
-      "data": "2025-06-20",
-      "titolo": "Giornata di Pulizia Ambientale",
-      "descrizione": "Unisciti a noi per mantenere puliti i sentieri e preservare la bellezza della Costiera Amalfitana.",
+      "data": "2024-01-06",
+      "periodo": "6 gennaio 2024",
+      "titolo": "Pulizia della spiaggia di Maiori con l'associazione Acarbio",
+      "descrizione": "Il gruppo giovanile \"The Greeners\" della Costiera Amalfitana ha organizzato un'iniziativa ecologica sulla spiaggia di Maiori, coinvolgendo la comunità locale, associazioni e l'assessore Mariantonia Mammato. L'evento, coordinato da Francesco Bruno, ha combinato la pulizia della spiaggia con un gioco a squadre, premiando il team Hiking per aver individuato i rifiuti più dannosi. Oltre alla raccolta di rifiuti insoliti, l'attività ha rafforzato il senso di comunità e sensibilizzazione ambientale. L'iniziativa si concluderà con un evento celebrativo a Tramonti organizzato da The Greeners e ACARBIO.",
       "immagini": [
-        "images/events/pulizia1.jpg"
+        "images/events/pulizia-spiaggia-maiori-thegreeners-1.jpg",
+        "images/events/pulizia-spiaggia-maiori-thegreeners-2.jpg",
+        "images/events/pulizia-spiaggia-maiori-thegreeners-3.jpg",
+        "images/events/pulizia-spiaggia-maiori-thegreeners-4.jpg",
+        "images/events/pulizia-spiaggia-maiori-thegreeners-5.jpg"
+      ]
+    },
+    {
+      "data": "2024-01-24",
+      "periodo": "Gennaio 2024",
+      "titolo": "Integrazione della segnaletica CAI lungo il sentiero 307 e 307A",
+      "descrizione": "Oggi sono stati integrati nuovi segnali lungo i sentieri CAI 307 e 307A, permettendo di seguire la segnaletica del Club Alpino Italiano dal bivio di Santa Maria fino alla Località Pietre Bianche o Balmasone. È stata inoltre aggiunta una deviazione che collega Pietre Bianche al Castello di Thoro Plano, attraversando il borgo sottostante. I cartelli attuali sono provvisori e verranno sostituiti in futuro con quelli omologati del CAI. Il sentiero 307A, che dovrebbe arrivare al Demanio, è stato sistemato solo fino a Pietre Bianche e, pur essendo in condizioni discrete, è percorribile solo parzialmente con attrezzatura adeguata, essendo classificato per Escursionisti Esperti (E.E.).",
+      "immagini": [
+        "images/events/segnali-307-1.jpg",
+        "images/events/segnali-307-2.jpg",
+        "images/events/segnali-307-3.jpg",
+        "images/events/segnali-307-4.jpg",
+        "images/events/segnali-307-5.jpg",
+        "images/events/segnali-307-6.jpg",
+        "images/events/segnali-307-7.jpg"
+      ]
+    },
+    {
+      "data": "2024-02-15",
+      "periodo": "15 Febbraio 2024",
+      "titolo": "Ripristino dell'area 'Perrella' e della segnaletica CAI",
+      "descrizione": "Oggi tra il Sentiero dei limoni ed il Sentiero delle formichelle, c’è stata la testimonianza perfetta di come unione e passione lavorano insieme verso la valorizzazione del nostro territorio. È stata riposta la segnaletica, tinteggiato, pulito un bel tratto ed infine ripristinata un’area relax precedentemente realizzata da alcuni amici di Maiori. Nell’attesa di incontrarci di nuovo, Grazie mille!",
+      "immagini": [
+        "images/events/perrella-1.jpg",
+        "images/events/perrella-2.jpg",
+        "images/events/perrella-3.jpg",
+        "images/events/perrella-4.jpg",
+        "images/events/perrella-5.jpg",
+        "images/events/perrella-6.jpg",
+        "images/events/perrella-7.jpg",
+        "images/events/perrella-8.jpg"
+      ]
+    },
+    {
+      "data": "2024-03-22",
+      "periodo": "22 Marzo 2024",
+      "titolo": "Incontro con i ragazzi dell'Istituto Comprensivo 'R. Rossellini' di Maiori",
+      "descrizione": "Oggi un’esperienza bellissima presso l’istituto Comprensivo \"R. ROSSELLINI\" di Maiori. Un incontro emozionante che ci ha portato a parlare con ragazzi interessati e curiosi, ai quali abbiamo fatto una promessa. Abbiamo toccato con mano l’attenzione dei ragazzi per quanto riguarda la sostenibilità ed il rispetto non solo della natura, ma di tutte le sue forme. Ci siamo impegnati a trasmettere anche l’importante messaggio di divulgazione del Contest \"Francesca Mansi: L’altra mia Costiera Resiliente e sostenibile\", aiutando i nostri amici di Acarbio. Il messaggio come i rapporti devono essere univoci e convogliati per avere un equilibrio al servizio di un mondo migliore. Grazie a tutta la scuola ed alla preside per averci accolto",
+      "immagini": [
+        "images/events/scuola-maiori-1.jpg",
+        "images/events/scuola-maiori-2.jpg",
+        "images/events/scuola-maiori-3.jpg",
+        "images/events/scuola-maiori-4.jpg",
+        "images/events/scuola-maiori-5.jpg",
+        "images/events/scuola-maiori-6.jpg"
+      ]
+    },
+    {
+      "data": "2024-03-30",
+      "periodo": "30 Marzo 2024",
+      "titolo": "Pulizia della spiaggia di Maiori",
+      "descrizione": "Oggi una giornata intrisa di emozioni, tra la rabbia di alcuni, le incomprensioni di altri, ma a noi bastano le lacrime di tutti voi, che vediamo nei vostri occhi. Oggi la micro-plastica è una delle cause concatenanti dei tumori, la gran parte di cose che mangiamo hanno percentuali di micro-plastiche. Il nostro messaggio è chiaro, non c’è burocrazia, denaro o politica. La nostra politica viene fatta con i fatti, con la concretezza, con la volontà, proprio come ieri. Ed è la diretta conseguenza dato che ieri hanno partecipato tutti anche persone che non conoscevamo come turisti, bambini, mamme, associazioni locali, nonni, runner e qualche altro cittadino maiorese sceso dal lungomare proprio in quel momento, mosso dal messaggio di Hiking the Amalfi Coast. La volontà é tutto se si vuole camminare in un mondo più pulito. La prossima volta vi aspettiamo ancora più numerosi. Grazie a tutti",
+      "immagini": [
+        "images/events/pulizia-spiaggia-maiori-0.jpg",
+        "images/events/pulizia-spiaggia-maiori-1.jpg",
+        "images/events/pulizia-spiaggia-maiori-2.jpg",
+        "images/events/pulizia-spiaggia-maiori-3.jpg",
+        "images/events/pulizia-spiaggia-maiori-4.jpg",
+        "images/events/pulizia-spiaggia-maiori-5.jpg",
+        "images/events/pulizia-spiaggia-maiori-6.jpg"
+      ]
+    },
+    {
+      "data": "2024-04-02",
+      "periodo": "2 Aprile 2024",
+      "titolo": "Pulizia della spiaggia di Minori",
+      "descrizione": "Oggi sull’arenile di Minori un’altra fantastica giornata all’insegna della salvaguardia ambientale. Come a Maiori anche a Minori si evince che il fiume è uno dei principali vettori, infatti supponiamo che il 70% dei rifiuti trovati sulla spiaggia vicino alla foce provenga dalla terra interna Oggi abbiamo tanti dispositivi tecnologici che potrebbero aiutare molti i comuni nel combattere questa piaga ecologica, e consentire a tutti noi un benessere socio-salutare migliore. Comunque ad ogni modo un’altra battaglia contro la plastica é stata vinta. Grazie mille a tutti quelli che hanno collaborato sia direttamente che indirettamente, continuano a costruire  insieme un mondo migliore e più pulito.",
+      "immagini": [
+        "images/events/pulizia-spiaggia-minori-1.jpg",
+        "images/events/pulizia-spiaggia-minori-2.jpg",
+        "images/events/pulizia-spiaggia-minori-3.jpg",
+        "images/events/pulizia-spiaggia-minori-4.jpg",
+        "images/events/pulizia-spiaggia-minori-5.jpg",
+        "images/events/pulizia-spiaggia-minori-6.jpg",
+        "images/events/pulizia-spiaggia-minori-7.jpg"
+      ]
+    },
+    {
+      "data": "2024-04-16",
+      "periodo": "16 Aprile 2024",
+      "titolo": "Recupero e manutenzione nella Valle delle Ferriere",
+      "descrizione": "Ieri una splendida giornata di recupero e manutenzione dei sentieri CAI323A e CAI325. Questa passeggiata che scende dalla frazione del Comune di Scala, ossia il bellissimo borgo di Pontone fino alla Valle delle Ferriere, passa attraverso scorci mozzafiato, antichi stabili, la sua tipica flora  e le innumerevoli cascate contornate da altrettanti rivoli d’acqua. La presenza ed il sostegno della Guida Vincenzo Giordano e dal Comandante della Polizia Locale Pietro Camera che sapientemente ci hanno coordinati ci insegna che il volontariato unisce attraverso una visione sostenibile dello sviluppo. Oltre al lavoro abbiamo incontrato uno splendido esemplare di salamandra pezzata, che ci ricorda di come sia delicato l’ecosistema ambientale. Un ringraziamento speciale a chi ci ha foraggiato con un’ottima merenda, un buon caffè ed un parcheggio sicuro e comodo. Un’esperienza unica che sicuramente ripeteremo con piacere.",
+      "immagini": [
+        "images/events/valledelleferriere-1.jpg",
+        "images/events/valledelleferriere-2.jpg",
+        "images/events/valledelleferriere-3.jpg",
+        "images/events/valledelleferriere-4.jpg",
+        "images/events/valledelleferriere-5.jpg",
+        "images/events/valledelleferriere-6.jpg"
       ]
     }
   ]

@@ -3,6 +3,10 @@ body {
     margin-top: 126px;
 }
 
+#home-map-image{
+    width: 100%;
+}
+
 /* Timeline */
 .timeline {
     position: relative;

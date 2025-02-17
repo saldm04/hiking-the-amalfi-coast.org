@@ -1,4 +1,3 @@
-<!-- events.html -->
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -19,6 +18,21 @@
     <h1 class="mb-4">Eventi</h1>
     <div class="timeline" id="timeline">
         <!-- Gli eventi verranno inseriti qui tramite JavaScript -->
+    </div>
+</div>
+
+<!-- Modal per la visualizzazione delle immagini -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
+            </div>
+            <div class="modal-body">
+                <img src="" id="modalImage" class="img-fluid" alt="Immagine evento">
+            </div>
+        </div>
     </div>
 </div>
 
