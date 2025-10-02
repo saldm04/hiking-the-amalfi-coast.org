@@ -19,20 +19,33 @@ function getImagesFromDir($dir, $extensions = ['jpg', 'jpeg', 'png', 'gif', 'web
     return $files;
 }
 
+$lang = 'it';
+if (isset($_GET['lang']) && strtolower($_GET['lang']) === 'en') {
+    $lang = 'en';
+}
+
+$pageTitle = $lang === 'en' ? 'Hiking The Amalfi Coast - Gallery' : 'Hiking The Amalfi Coast - Galleria';
+$metaDescription = $lang === 'en'
+    ? 'Photo gallery of Hiking The Amalfi Coast activities, hikes and treks on the Amalfi Coast.'
+    : 'Galleria di immagini delle attività di Hiking The Amalfi Coast, escursioni e trekking in Costiera Amalfitana';
+$heading = $lang === 'en' ? 'Gallery' : 'Galleria';
+$modalCloseText = $lang === 'en' ? 'Close' : 'Chiudi';
+$modalImageAlt = $lang === 'en' ? 'Enlarged image' : 'Immagine ingrandita';
+
 $images = getImagesFromDir("images");
 ?>
 <!DOCTYPE html>
-<html lang="it">
+<html lang="<?php echo $lang; ?>">
 <head>
     <meta charset="UTF-8">
-    <title>Hiking The Amalfi Coast - Galleria</title>
+    <title><?php echo $pageTitle; ?></title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Foglio di stile personalizzato -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Stili personalizzati per la galleria -->
     <meta name="viewport" content="initial-scale=1, width=device-width">
-    <meta name="description" content="Galleria di immagini delle attività di Hiking The Amalfi Coast, escursioni e trekking in Costiera Amalfitana">
+    <meta name="description" content="<?php echo $metaDescription; ?>">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <style>
         .gallery-item img {
@@ -52,7 +65,7 @@ $images = getImagesFromDir("images");
 <div id="navbar-placeholder"></div>
 
 <div class="container my-5">
-    <h1 class="mb-4">Galleria</h1>
+    <h1 class="mb-4"><?php echo $heading; ?></h1>
     <div class="row">
         <?php foreach ($images as $img): ?>
             <div class="col-6 col-md-4 col-lg-3 gallery-item">
@@ -70,10 +83,10 @@ $images = getImagesFromDir("images");
     <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
             <div class="modal-body p-0">
-                <img src="" id="modalImage" class="img-fluid w-100" alt="Immagine ingrandita">
+                <img src="" id="modalImage" class="img-fluid w-100" alt="<?php echo $modalImageAlt; ?>">
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?php echo $modalCloseText; ?></button>
             </div>
         </div>
     </div>

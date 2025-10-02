@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('assets/json/events.json') // Assicurati che il percorso sia corretto
+    const pageLang = document.documentElement.lang || 'it';
+    const dataPath = pageLang === 'en' ? 'assets/json/events-en.json' : 'assets/json/events.json';
+    const errorMessage = pageLang === 'en'
+        ? 'Error loading events.'
+        : 'Errore nel caricamento degli eventi.';
+
+    fetch(dataPath)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Errore nel caricamento del file JSON');
@@ -22,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 dataEvento.setHours(0, 0, 0, 0); // Imposta l'ora a mezzanotte per il confronto
 
                 // Determina se l'evento è futuro o passato
-                const tipo = dataEvento >= oggi ? 'futuro' : 'passato';
+                const isFuture = dataEvento >= oggi;
 
                 // Crea il contenitore dell'evento
                 const timelineItem = document.createElement('div');
@@ -31,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Crea l'icona
                 const timelineIcon = document.createElement('div');
                 timelineIcon.classList.add('timeline-icon');
-                timelineIcon.classList.add(tipo === 'futuro' ? 'bg-success' : 'bg-secondary');
+                timelineIcon.classList.add(isFuture ? 'bg-success' : 'bg-secondary');
 
                 // Crea il contenuto
                 const timelineContent = document.createElement('div');
@@ -84,7 +90,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     img.src = src;
                     img.classList.add('img-fluid');
                     img.style.maxHeight = '200px';
-                    img.alt = `Foto evento ${tipo}`;
+                    img.alt = pageLang === 'en'
+                        ? `Event photo (${isFuture ? 'upcoming' : 'past'})`
+                        : `Foto evento ${isFuture ? 'in arrivo' : 'passato'}`;
                     // Al click, apri il modale impostando titolo e immagine
                     img.addEventListener('click', () => {
                         document.querySelector('#imageModalLabel').textContent = `${evento.periodo} - ${evento.titolo}`;
@@ -128,6 +136,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => {
             console.error('Errore:', error);
             const timeline = document.getElementById('timeline');
-            timeline.innerHTML = '<p>Errore nel caricamento degli eventi.</p>';
+            timeline.innerHTML = `<p>${errorMessage}</p>`;
         });
 });

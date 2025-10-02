@@ -1,0 +1,95 @@
+{
+  "places": [
+    {
+      "id": "luogo1",
+      "nome": "Mount Avvocata - Maiori",
+      "immagini": [
+        "images/places/avvocata1.jpeg",
+        "images/places/avvocata2.jpg",
+        "images/places/avvocata3.jpg",
+        "images/places/avvocata4.jpg",
+        "images/places/avvocata5.jpg"
+      ],
+      "descrizione": "The Church of the Avvocata stands on the plateau of Mount Mirteto, at the foot of Mount Falerzio, 827 metres above sea level. It overlooks the long rock wall that dominates Maiori. The origins of the sanctuary date back to 1485, when Gabriele Cinnamo, a young shepherd from Maiori, discovered a cave among the woods on Mount Falerzio. After a dream in which the Virgin Mary asked him to build a place of prayer, the shepherd left his job and retired to the mountain as a hermit, collecting offerings to build a chapel with an altar inside the cave. In 1503, with the consent of Pope Leo X, a church was erected on the rock above and a bell tower was later added. The church, described by the historian Camera, had a single nave with one altar and a large stone-paved courtyard in front of the north-facing entrance. Over time devotion to Our Lady Avvocata spread among the inhabitants of the coastal villages, and many hermits cared for the sanctuary. In 1682 the hermitage was entrusted to the Camaldolese Fathers, who expanded the church and ancillary buildings and equipped them with a library. In 1807, after King Joseph Bonaparte of Naples issued laws suppressing religious orders, the monks were expelled, their assets seized and a military garrison settled on the mountain. Neglect, bad weather and a fire in 1838 led to the destruction of the church, and the cave also lost its role as a place of worship. Only in 1892 did devoted citizens from Maiori and the Abbey of Cava de' Tirreni commit to restoring the altar and frescoes in the cave and rebuilding the church, which has since been cared for by the Benedictines of the Abbey of Cava. The oldest part of the sanctuary is the cave, which preserves a chapel with remarkable frescoes. The altar depicts the Virgin appearing to the shepherd Cinnamo, while the vault features the twelve apostles surrounded by angels. Two staircases branch off from the chapel: one leads to two wells that collect water, the other to a larger chamber that was probably the original place of worship. Nearby there is another cavity known as the Grotta Salese, named after the bandit who found refuge there. Three small arches can be seen on the back wall, the central one closed off to serve as a fountain fed by a natural spring. These nineteenth-century structures bear witness to the sanctuary's long history of devotion and resilience, which continues to make it a pilgrimage destination for the local community."
+    },
+    {
+      "id": "luogo2",
+      "nome": "Castle of San Nicola de Thoro-Plano - Maiori",
+      "immagini": [
+        "images/places/thoroplano1.jpg",
+        "images/places/thoroplano2.jpg",
+        "images/places/thoroplano3.jpg",
+        "images/places/thoroplano4.jpg"
+      ],
+      "descrizione": "The Castle of San Nicola de Thoro-Plano is a medieval fortress in Maiori on the Amalfi Coast. It rises on the summit of the Thorus Planus hill, overlooking the districts of Accola and Carpineto. The settlement was built around an ancient church dedicated to Saint Nicholas and developed around its bell tower. With a perimeter of about 550 metres and a surface of 7,500 square metres, the structure was not intended as a feudal residence but served as a fortress and refuge for the local population during frequent incursions by Saracen pirates, Lombards and Pisans. According to Cerasuoli, construction began around the year 840, in parallel with the Baluardo di San Sebastiano, following the Lombard invasions of the ninth century. In the fifteenth century, under the rule of the Piccolomini family, the castle was restored and expanded between 1465 and 1480, after Ferdinand I of Aragon granted them the Duchy of Amalfi in 1461. In 1593 the collegiate church of San Nicola was suppressed and the religious complex incorporated into the fortress. The castle features an irregular curtain wall interrupted by nine semicircular towers, about eight metres high and five metres in diameter, which made it extremely difficult to conquer. The walls, equipped with loopholes and buttresses, protected the interior, where barracks, shelters for a large garrison and hundreds of citizens, as well as warehouses and cisterns, were located. A natural spring ensured the water supply in the event of a prolonged siege. Today the castle houses a small museum with local artefacts, many of which were found within the manor. From the top of the hill there is a breathtaking panoramic view over the valley below and the Gulf, offering an enchanting perspective on the Amalfi Coast."
+    },
+    {
+      "id": "luogo3",
+      "nome": "Abbey of Santa Maria de Olearia - Maiori",
+      "immagini": [
+        "images/places/abbazia1.jpg",
+        "images/places/abbazia2.jpg",
+        "images/places/abbazia3.jpg",
+        "images/places/abbazia4.jpg"
+      ],
+      "descrizione": "The Abbey of Santa Maria de Olearia is a medieval monastic complex along the Amalfi Coast road between Capo d'Orso and Maiori, about 3.5 km from the centre of Maiori and 11.5 km from Vietri sul Mare. Founded between 973 and 987 by the hermit Pietro and his nephew Giovanni, it first arose as a hermitage and later became a Benedictine protocenobium and then an abbey. The name ‘de Olearia’ comes from the abundant olive groves in the area used for oil production. The complex consists of three small superimposed churches richly decorated with frescoes. In the surviving monumental section you can admire wall paintings attributed to Leone Amalfitano, an eleventh-century Benedictine monk. The lower chapel, known as the ‘catacomb’, features frescoes depicting the Virgin with saints, while the main chapel, at the intermediate level, hosts scenes from the life of Christ, including the Annunciation, Nativity and Crucifixion. The upper chapel, dedicated to Saint Nicholas, contains further sacred images. After the death of the last abbot in 1509, the abbey was abandoned. In the Middle Ages, Maiori was one of the main ecclesiastical centres of the Duchy of Amalfi thanks to the presence of numerous monastic communities. Benedictines, Basilians, Cluniacs, Cistercians, Florenses and Camaldolese monks populated the area, particularly the steep slopes of Mount Falerzio. The origins of monasticism on the Amalfi Coast appear rooted in hermitage, and many abbeys initially began as simple hermitages. Besides Santa Maria de Olearia there were three other important monastic centres: the Abbey of Santa Marina de Ste.lli, founded in the eighth century on the slopes of Mount Falerzio and run by foreign monks; the Abbey of San Nicola de Carbonariis, also on Mount Falerzio; and the Benedictine Abbey of Santa Maria de Ercule, founded in 979 on the beach of Erchie. The catacombs of Santa Maria de Olearia have yielded paintings dating back to the seventh and eighth centuries of great historical and artistic value. It was from this spiritually rich environment that Brother Gerardo Sasso of Scala gathered his first followers to found the Order of the Hospital of Saint John of Jerusalem, later known as the Order of Malta."
+    },
+    {
+      "id": "luogo4",
+      "nome": "Collegiate Church of Santa Maria a Mare - Maiori",
+      "immagini": [
+        "images/places/collegiata1.jpeg",
+        "images/places/collegiata2.jpeg",
+        "images/places/collegiata3.jpg",
+        "images/places/collegiata4.jpeg"
+      ],
+      "descrizione": "The Collegiate Church of Santa Maria a Mare is the main religious building in Maiori, located on Mount Torina in the heart of the historic centre. The church takes its name from a thirteenth-century legend according to which a wooden statue of the Virgin and Child was found intact on Maiori's beach by local fishermen. This miraculous event led to the dedication of the church to ‘Santa Maria a Mare’. The site was originally occupied by the Rocca di Sant'Angelo, a fortress destroyed by the Pisans in 1137. The chapel inside the fortress was later enlarged, becoming the present church in the twelfth century. In 1505 Pope Julius II elevated it to the rank of collegiate church. The building has undergone numerous transformations over the centuries. In the sixteenth century the patrician Erasmo De Ponte commissioned artist Alessandro de Fulco to create the gilded coffered ceiling that is still visible today. In 1836 the Neapolitan architect Pietro Valente redesigned the structure, adding three wide naves, a transept and a new façade facing the town and the sea. The majestic dome, completed in 1863, is covered with yellow and green majolica tiles typical of churches on the Amalfi Coast. Inside, in addition to the statue of the Virgin, you can admire several artworks, including fifteenth-century paintings and a large bell cast in 1334. The high altar houses the statue of the Virgin and Child, while the gilded coffered ceiling from 1520, created by Alessandro Fulco, embellishes the central nave. The church also plays a central role in local religious traditions. The feast of Santa Maria a Mare is celebrated twice a year: on 15 August, the day of the Assumption, and on the third Sunday of November, known as ‘Maronn e' Notte’. During these celebrations the statue of the Virgin is carried in procession through the streets of Maiori, culminating in the traditional run up the 127 steps leading to the church."
+    },
+    {
+      "id": "luogo5",
+      "nome": "Convent of San Nicola - Minori",
+      "immagini": [
+        "images/places/san-nicola1.jpg",
+        "images/places/san-nicola2.jpg",
+        "images/places/san-nicola3.jpg",
+        "images/places/san-nicola4.jpg"
+      ],
+      "descrizione": "The Convent of San Nicola is an ancient monastic complex on Mount Forcella in the municipality of Minori on the Amalfi Coast. Founded in the eleventh century, it became home to the Augustinians from 1628. The single-nave church houses a statue of Saint Nicholas in the niche above the altar. The convent is arranged over two floors: the lower level contained service rooms with barrel vaults, while the upper floor comprised five monastic cells. Traces of a bell tower are still visible."
+    },
+    {
+      "id": "luogo6",
+      "nome": "Lemon Trail - Maiori, Minori",
+      "immagini": [
+        "images/places/limoni1.jpg",
+        "images/places/limoni2.jpg",
+        "images/places/limoni3.jpg",
+        "images/places/limoni4.jpeg",
+        "images/places/limoni5.jpg"
+      ],
+      "descrizione": "The Lemon Trail is a charming panoramic route connecting the towns of Maiori and Minori at the heart of the Amalfi Coast. This 2.5-kilometre itinerary with a 150-metre elevation gain winds through ancient terraced gardens planted with lemons, offering breathtaking views of the sea and the characteristic coastal houses. Before the construction of the Amalfi Coast road, it was the main link between the two towns. Today the path allows visitors to immerse themselves in local farming tradition and admire the cultivation of the celebrated ‘sfusato amalfitano’, the area's iconic lemon. The walk is enriched by spectacular views and historic traces, making it an unmissable experience for anyone wishing to discover the authentic side of the Coast."
+    },
+    {
+      "id": "luogo7",
+      "nome": "Santa Maria dei Monti Mountain Hut - Scala",
+      "immagini": [
+        "images/places/smdm1.jpg",
+        "images/places/smdm2.jpg",
+        "images/places/smdm3.jpg",
+        "images/places/smdm4.jpg",
+        "images/places/smdm5.jpg"
+      ],
+      "descrizione": "The Santa Maria dei Monti mountain hut is located in the municipality of Scala inside the Monti Lattari Regional Park at an elevation of over 1,000 metres above sea level. It is an ideal destination for hiking and nature enthusiasts. One of the most popular routes to the hut starts from the locality of Campidoglio, a hamlet of Scala. The trail crosses chestnut woods and offers breathtaking views over the Valle delle Ferriere and the surrounding peaks, including Mount Petraro. Along the way you can see the ancient walls of Castrum Scalae Majoris, a fortress dating back to the second half of the eleventh century and the highest fortified point in the Duchy of Amalfi."
+    },
+    {
+      "id": "luogo8",
+      "nome": "Torre dello Ziro - Scala",
+      "immagini": [
+        "images/places/ziro1.jpg",
+        "images/places/ziro2.jpg",
+        "images/places/ziro3.jpg",
+        "images/places/ziro4.jpg"
+      ],
+      "descrizione": "Torre dello Ziro is an ancient watchtower located in Pontone, a hamlet of Scala on the Amalfi Coast. Built in 1480 by the Duke of Amalfi, Antonio Piccolomini, the tower was designed to guard and defend the coastline from Saracen raids. It stands on a rocky spur between Atrani and Amalfi, offering sweeping views over the Gulf of Salerno and the picturesque villages below. The cylindrical structure with a sloping base features typical elements of late Angevin military architecture. Beyond its strategic role, the tower is linked to a tragic historical episode. It is said that Giovanna d'Aragona, widow of Duke Alfonso Piccolomini, began a secret affair with her butler Antonio Bologna. When the relationship was discovered, Giovanna's brothers imprisoned her and her children in the tower, where they were later killed. This tragic event inspired several literary works, including John Webster's ‘The Duchess of Malfi’."
+    }
+  ]
+}

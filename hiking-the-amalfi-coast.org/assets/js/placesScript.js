@@ -1,6 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const pageLang = document.documentElement.lang || 'it';
+    const placesPath = pageLang === 'en' ? 'assets/json/places-en.json' : 'assets/json/places.json';
+    const areasPath = pageLang === 'en' ? 'assets/json/protected-areas-en.json' : 'assets/json/aree-protette.json';
+    const errorMessage = pageLang === 'en'
+        ? 'Error loading places.'
+        : 'Errore nel caricamento dei luoghi.';
+    const protectedAreasLabel = pageLang === 'en' ? 'Protected Areas' : 'Aree Protette';
+    const regionalParkDescription = pageLang === 'en'
+        ? 'The Monti Lattari Regional Park is a protected natural area in the Campania region. Covering about 16,000 hectares, it encompasses the entire Sorrento-Amalfi peninsula. Its territory is rich in natural beauty that makes it unique from both a tourism and heritage perspective, dotted with important historic centers that testify to a deeply rooted human presence as well as environmental features that blend two seemingly contrasting elements: the mountains and the sea.'
+        : "Il parco regionale dei Monti Lattari è un'area naturale protetta della regione Campania. Il parco copre una superficie di circa 16.000 ettari e abbraccia l’intera penisola sorrentino-amalfitana. Il suo territorio è ricco di bellezze naturalistiche che lo caratterizzano dal punto di vista turistico patrimoniale ed è disseminato di importantissimi centri storici, testimoni di una presenza fortemente radicata dell’uomo, ma anche di peculiarità ambientali che si esplicitano in un’intima unione tra due elementi apparentemente in contraddizione: la montagna e il mare.";
+
     // Caricamento dei luoghi
-    fetch('assets/json/places.json')
+    fetch(placesPath)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Errore nel caricamento del file JSON dei luoghi');
@@ -11,8 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const sidebarOffcanvas = document.getElementById('places-sidebar-offcanvas');
             const content = document.getElementById('places-content');
 
+            const places = pageLang === 'en' ? data.places : data.luoghi;
+
             // Popola il sidebar e il contenuto principale per i luoghi
-            data.luoghi.forEach(luogo => {
+            places.forEach(luogo => {
                 // Crea il link per l'offcanvas
                 const link = document.createElement('a');
                 link.classList.add('list-group-item', 'list-group-item-action');
@@ -128,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Crea il link all'interno dell'h5
             const linkHeader = document.createElement('a');
             linkHeader.href = "#header-aree-protette"; // Assicurati che l'elemento target abbia questo id nella pagina
-            linkHeader.textContent = "Aree Protette";
+            linkHeader.textContent = protectedAreasLabel;
 
             // Chiudi l'offcanvas al click
             linkHeader.addEventListener('click', () => {
@@ -153,10 +166,10 @@ document.addEventListener('DOMContentLoaded', () => {
             sectionArea.classList.add('mb-5', 'scroll-section');
 
             const titoloArea = document.createElement('h2');
-            titoloArea.textContent = 'Aree Protette';
+            titoloArea.textContent = protectedAreasLabel;
 
             const descrizioneArea = document.createElement('p');
-            descrizioneArea.textContent = "Il parco regionale dei Monti Lattari è un'area naturale protetta della regione Campania. Il parco copre una superficie di circa 16.000 ettari e abbraccia l’intera penisola sorrentino-amalfitana. Il suo territorio è ricco di bellezze naturalistiche che lo caratterizzano dal punto di vista turistico patrimoniale ed è disseminato di importantissimi centri storici, testimoni di una presenza fortemente radicata dell’uomo, ma anche di peculiarità ambientali che si esplicitano in un’intima unione tra due elementi apparentemente in contraddizione: la montagna e il mare.";
+            descrizioneArea.textContent = regionalParkDescription;
 
             sectionArea.appendChild(titoloArea);
             sectionArea.appendChild(descrizioneArea);
@@ -164,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
             content.appendChild(sectionArea);
 
             // Ora carica le aree protette
-            fetch('assets/json/aree-protette.json')
+            fetch(areasPath)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Errore nel caricamento del file JSON delle aree protette');
@@ -174,7 +187,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 .then(dataAree => {
 
                     // Popola il sidebar per le aree protette
-                    dataAree.aree.forEach(area => {
+                    const areas = pageLang === 'en' ? dataAree.protectedAreas : dataAree.aree;
+
+                    areas.forEach(area => {
                         const linkArea = document.createElement('a');
                         linkArea.classList.add('list-group-item', 'list-group-item-action');
                         linkArea.href = `#${area.id}`;
@@ -279,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => {
             console.error('Errore:', error);
             const content = document.getElementById('places-content');
-            content.innerHTML = '<p>Errore nel caricamento dei luoghi.</p>';
+            content.innerHTML = `<p>${errorMessage}</p>`;
         });
 });
 

@@ -1,0 +1,149 @@
+{
+  "eventi": [
+    {
+      "data": "2023-04-13",
+      "periodo": "13 April 2023",
+      "titolo": "Hiking The Amalfi Coast is founded",
+      "descrizione": "Hiking The Amalfi Coast was born from a group of friends who share a love for nature and the mountains. Today we formally become an association with the goal of promoting, developing and protecting our territory. Let's begin!",
+      "immagini": [
+        "images/events/fondazione.jpg",
+        "images/events/fondazione-gruppo.jpeg",
+        "images/events/fondazione-smdm.jpg"
+      ]
+    },
+    {
+      "data": "2023-12-01",
+      "periodo": "December 2023",
+      "titolo": "Maintenance along trails 307 and 307A",
+      "descrizione": "Initial clean-up of the spur leading to CAI trail 307A, alongside the southern walls of the San Nicola de Thoro-Plano castle, and of CAI trail 307, which leads to the Sanctuary of the Avvocata from San Vito to the locality of Santa Maria.",
+      "immagini": [
+        "images/events/manutenzione-dicembre-2023-1.jpg",
+        "images/events/manutenzione-dicembre-2023-2.jpeg",
+        "images/events/manutenzione-dicembre-2023-3.jpg",
+        "images/events/manutenzione-dicembre-2023-4.jpg",
+        "images/events/manutenzione-dicembre-2023-5.jpg",
+        "images/events/manutenzione-dicembre-2023-6.jpg",
+        "images/events/manutenzione-dicembre-2023-7.jpg",
+        "images/events/manutenzione-dicembre-2023-8.jpg",
+        "images/events/manutenzione-dicembre-2023-9.jpg"
+      ]
+    },
+    {
+      "data": "2023-12-28",
+      "periodo": "28 December 2023",
+      "titolo": "Year-end hike to the Capo d'Orso caves",
+      "descrizione": "A beautiful day dedicated to nature and early medieval monastic archaeology on the Amalfi Coast. We are in the municipality of Maiori, inside the Capo d'Orso Integral Reserve. Exploring such a rich land helps us rediscover inner peace and see first-hand how coenobite monks once lived.",
+      "immagini": [
+        "images/events/openday-2023-1.jpg",
+        "images/events/openday-2023-2.jpg",
+        "images/events/openday-2023-3.jpg",
+        "images/events/openday-2023-4.jpg",
+        "images/events/openday-2023-5.jpg",
+        "images/events/openday-2023-6.jpg",
+        "images/events/openday-2023-7.jpg"
+      ]
+    },
+    {
+      "data": "2024-01-06",
+      "periodo": "6 January 2024",
+      "titolo": "Beach clean-up in Maiori with the Acarbio association",
+      "descrizione": "The youth group \"The Greeners\" of the Amalfi Coast organised an environmental initiative on the beach of Maiori, involving the local community, associations and councillor Mariantonia Mammato. Coordinated by Francesco Bruno, the event combined a beach clean-up with a team challenge, awarding the Hiking team for spotting the most harmful waste. Beyond collecting unusual rubbish, the activity strengthened community bonds and raised environmental awareness. The initiative will conclude with a celebratory event in Tramonti organised by The Greeners and ACARBIO.",
+      "immagini": [
+        "images/events/pulizia-spiaggia-maiori-thegreeners-1.jpg",
+        "images/events/pulizia-spiaggia-maiori-thegreeners-2.jpg",
+        "images/events/pulizia-spiaggia-maiori-thegreeners-3.jpg",
+        "images/events/pulizia-spiaggia-maiori-thegreeners-4.jpg",
+        "images/events/pulizia-spiaggia-maiori-thegreeners-5.jpg"
+      ]
+    },
+    {
+      "data": "2024-01-24",
+      "periodo": "January 2024",
+      "titolo": "New CAI signage along trails 307 and 307A",
+      "descrizione": "New signs were installed today along CAI trails 307 and 307A, allowing hikers to follow the Club Alpino Italiano markers from the Santa Maria junction to the locality of Pietre Bianche or Balmasone. A new detour now connects Pietre Bianche to Thoro Plano Castle, passing through the village below. The current signs are temporary and will be replaced with official CAI signage. Trail 307A, which should reach Demanio, has been maintained up to Pietre Bianche and, although in fair condition, can only be walked partially with proper equipment because it is classified as suitable for experienced hikers (E.E.).",
+      "immagini": [
+        "images/events/segnali-307-1.jpg",
+        "images/events/segnali-307-2.jpg",
+        "images/events/segnali-307-3.jpg",
+        "images/events/segnali-307-4.jpg",
+        "images/events/segnali-307-5.jpg",
+        "images/events/segnali-307-6.jpg",
+        "images/events/segnali-307-7.jpg"
+      ]
+    },
+    {
+      "data": "2024-02-15",
+      "periodo": "15 February 2024",
+      "titolo": "Restoring the 'Perrella' area and CAI signage",
+      "descrizione": "Today, between the Lemon Trail and the Formichelle Trail, we witnessed how unity and passion work together to enhance our territory. We reinstalled the signage, painted, cleaned a large stretch and restored a relaxation area originally created by friends from Maiori. Until we meet again, thank you so much!",
+      "immagini": [
+        "images/events/perrella-1.jpg",
+        "images/events/perrella-2.jpg",
+        "images/events/perrella-3.jpg",
+        "images/events/perrella-4.jpg",
+        "images/events/perrella-5.jpg",
+        "images/events/perrella-6.jpg",
+        "images/events/perrella-7.jpg",
+        "images/events/perrella-8.jpg"
+      ]
+    },
+    {
+      "data": "2024-03-22",
+      "periodo": "22 March 2024",
+      "titolo": "Meeting the students of the \"R. Rossellini\" Comprehensive Institute in Maiori",
+      "descrizione": "A wonderful experience today at the \"R. Rossellini\" Comprehensive Institute in Maiori. It was an emotional encounter with curious and engaged students to whom we made a promise. We saw first-hand their attention to sustainability and respect not only for nature but for all its forms. We committed to spreading the important message of the contest \"Francesca Mansi: My other resilient and sustainable Coast\", helping our friends at Acarbio. Messages and relationships must flow both ways to build a better world. Thank you to the entire school and to the principal for welcoming us.",
+      "immagini": [
+        "images/events/scuola-maiori-1.jpg",
+        "images/events/scuola-maiori-2.jpg",
+        "images/events/scuola-maiori-3.jpg",
+        "images/events/scuola-maiori-4.jpg",
+        "images/events/scuola-maiori-5.jpg",
+        "images/events/scuola-maiori-6.jpg"
+      ]
+    },
+    {
+      "data": "2024-03-30",
+      "periodo": "30 March 2024",
+      "titolo": "Beach clean-up in Maiori",
+      "descrizione": "An emotional day, filled with the anger of some, the misunderstandings of others, but above all with the tears we see in everyone's eyes. Microplastics are now one of the causes linked to cancer, and much of what we eat contains traces of them. Our message is clear: bureaucracy, money or politics are not the driving forces. Our action is guided by facts, concreteness and determination, just like yesterday. Tourists, children, parents, local associations, grandparents, runners and several residents who happened to be on the promenade all joined in, moved by the message of Hiking The Amalfi Coast. Determination is everything if we want a cleaner world. Next time we hope to see even more of you. Thank you everyone.",
+      "immagini": [
+        "images/events/pulizia-spiaggia-maiori-0.jpg",
+        "images/events/pulizia-spiaggia-maiori-1.jpg",
+        "images/events/pulizia-spiaggia-maiori-2.jpg",
+        "images/events/pulizia-spiaggia-maiori-3.jpg",
+        "images/events/pulizia-spiaggia-maiori-4.jpg",
+        "images/events/pulizia-spiaggia-maiori-5.jpg",
+        "images/events/pulizia-spiaggia-maiori-6.jpg"
+      ]
+    },
+    {
+      "data": "2024-04-02",
+      "periodo": "2 April 2024",
+      "titolo": "Beach clean-up in Minori",
+      "descrizione": "Another fantastic day dedicated to environmental protection on the beach of Minori. As in Maiori, we noticed that the river is one of the main carriers of waste—around 70% of the rubbish found near the river mouth probably comes from inland. Today we have many technological tools that could help municipalities tackle this environmental challenge and improve our collective well-being. Another battle against plastic has been won. Thank you to everyone who collaborated, directly or indirectly, to keep building a cleaner and better world together.",
+      "immagini": [
+        "images/events/pulizia-spiaggia-minori-1.jpg",
+        "images/events/pulizia-spiaggia-minori-2.jpg",
+        "images/events/pulizia-spiaggia-minori-3.jpg",
+        "images/events/pulizia-spiaggia-minori-4.jpg",
+        "images/events/pulizia-spiaggia-minori-5.jpg",
+        "images/events/pulizia-spiaggia-minori-6.jpg",
+        "images/events/pulizia-spiaggia-minori-7.jpg"
+      ]
+    },
+    {
+      "data": "2024-04-16",
+      "periodo": "16 April 2024",
+      "titolo": "Restoration and maintenance in the Valle delle Ferriere",
+      "descrizione": "Yesterday we spent a wonderful day restoring and maintaining CAI trails 323A and 325. This route descends from the hamlet of Pontone in Scala to the Valle delle Ferriere, winding through breathtaking views, historic buildings, unique flora and countless waterfalls and streams. The presence and support of guide Vincenzo Giordano and the local police chief Pietro Camera, who coordinated us with great skill, shows that volunteering unites people through a sustainable vision of development. Besides the work carried out, we met a splendid fire salamander, reminding us how delicate the ecosystem is. A special thank you to those who treated us to a delicious snack, a good coffee and safe parking. An unforgettable experience that we will gladly repeat.",
+      "immagini": [
+        "images/events/valledelleferriere-1.jpg",
+        "images/events/valledelleferriere-2.jpg",
+        "images/events/valledelleferriere-3.jpg",
+        "images/events/valledelleferriere-4.jpg",
+        "images/events/valledelleferriere-5.jpg",
+        "images/events/valledelleferriere-6.jpg"
+      ]
+    }
+  ]
+}

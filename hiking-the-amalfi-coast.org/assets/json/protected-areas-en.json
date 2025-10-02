@@ -1,0 +1,43 @@
+{
+  "protectedAreas": [
+    {
+      "id": "area1",
+      "nome": "Capo d'Orso Nature Park - Maiori",
+      "immagini": [
+        "images/places/capodorso1.jpeg",
+        "images/places/capodorso2.jpg",
+        "images/places/capodorso3.jpg",
+        "images/places/capodorso4.jpeg",
+        "images/places/capodorso5.jpg",
+        "images/places/capodorso6.jpg",
+        "images/places/capodorso7.jpg",
+        "images/places/capodorso8.jpeg"
+      ],
+      "descrizione": "The Capo d'Orso Nature Park in the municipality of Maiori extends over about 3,000 hectares and is an area of great environmental, historical and scenic interest. The headland, whose name refers to its bear-shaped profile, is part of the southern slope of the Monti Lattari and is mainly composed of limestone and dolomite. Its steep and rugged landscape is dotted with caves of naturalistic and historical value, including Grotta Porta di Monte Piano—a series of cavities on different levels connected by tunnels—and the Grotta dell'Uomo a Cavallo. The Grotta dell'Affresco is particularly noteworthy: it bears traces of Eastern-style hermit settlements dating back to the tenth century, with a dry-stone retaining wall and remains of plaster. The headland is dominated by Mediterranean maquis with heather, myrtle, mastic and buckthorn, while Phoenicean juniper and dwarf palm—a biogeographical relic—grow on the cliffs. In less disturbed areas, the tall maquis, a remnant of the ancient evergreen forest, survives: holm oak forests at lower elevations and chestnut woods higher up. The park is home to many Mediterranean fauna species, enhancing its natural value. Mammals include foxes, beech martens, hedgehogs, dormice, moles and field mice, while the increasingly rare badger is still present. Birdlife is abundant, with buzzards, kestrels, jays and yellow-legged gulls. The area's true gem is the peregrine falcon, a globally endangered raptor that finds a favourable nesting habitat here. Capo d'Orso is also of historical interest: in 1528 a naval battle between the French and Spanish fleets took place in the waters off the headland. The park offers an extraordinary combination of breathtaking landscapes, biodiversity and historical evidence for anyone passionate about nature, history and hiking."
+    },
+    {
+      "id": "area2",
+      "nome": "Valle del Demanio - Maiori",
+      "immagini": [
+        "images/places/demanio1.jpeg",
+        "images/places/demanio2.jpeg",
+        "images/places/demanio3.jpg",
+        "images/places/demanio4.jpeg",
+        "images/places/demanio5.jpg"
+      ],
+      "descrizione": "The Valle del Demanio in Maiori is characterised by two streams known as Acqua Calda and Rio Demanio, which flow through separate gullies and meet near the so-called Demanio spring before joining the Reginna torrent a few hundred metres downstream. The wide valley is surrounded by rugged ridges that once hosted the paths leading to Cava de' Tirreni on the opposite slope. The humid environment favours the lush growth of mixed woodland species such as alder, chestnut, manna ash, maple and hornbeam, while holm oak and other evergreen species like strawberry tree, heather and mastic occupy the sunniest areas. As in the nearby Valle delle Ferriere in Amalfi, the Demanio valley hosts rare ferns such as Pteris cretica, Pteris vittata and the small carnivorous plant Pinguicola hirtiflora; according to nineteenth-century scholars, the giant fern Woodwardia radicans may also have been present. Until 1993 the valley was home to an enormous holm oak (Quercus ilex), the last survivor of the dense forests that once covered the coastline. Its impressive size—estimated to be 500–600 years old—made it one of the largest and oldest trees in the area. Locals called it ‘O' Ri' Lucine’, or ‘the two holm oaks’, referring to the unusual forked trunk. The fauna includes the common small mammals of the Amalfi Coast, foxes and mustelids such as badgers and beech martens, and even the rare otter, whose presence in both the Demanio and the Valle delle Ferriere has been documented by recent studies. Birdlife includes numerous species, notably diurnal birds of prey (buzzard, kestrel, sparrowhawk) and nocturnal raptors (little owl, tawny owl and possibly barn owl)."
+    },
+    {
+      "id": "area3",
+      "nome": "Valle delle Ferriere - Scala",
+      "immagini": [
+        "images/places/ferriere1.jpg",
+        "images/places/ferriere2.jpg",
+        "images/places/ferriere3.jpg",
+        "images/places/ferriere4.jpg",
+        "images/places/ferriere5.jpg"
+      ],
+      "descrizione": "The Valle delle Ferriere is a nature reserve between the municipalities of Scala and Amalfi. This deep, lush valley stretches for about six kilometres, starting from the mountains of Scala and ending near Amalfi. Sheltered from cold northern winds by high rock ridges and open to warm, humid currents from the sea, it enjoys a unique microclimate that has preserved rare plant species such as the giant fern Woodwardia radicans, dating back to the pre-glacial era. Along the trail you can admire the ruins of medieval ironworks and paper mills, evidence of the ingenuity of local inhabitants who harnessed the water power of the Canneto stream to operate these proto-industrial structures. The upper part of the valley, in the municipality of Scala, is known as Valle delle Ferriere because of the ironworks, while the lower section near Amalfi is called Valle dei Mulini for its many historic paper mills."
+    }
+  ]
+}
