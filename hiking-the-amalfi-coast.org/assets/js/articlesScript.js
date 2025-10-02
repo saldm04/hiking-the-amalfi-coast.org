@@ -1,7 +1,13 @@
 // assets/js/articlesScript.js
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('assets/json/articles.json')
+    const pageLang = document.documentElement.lang || 'it';
+    const dataPath = pageLang === 'en' ? 'assets/json/articles-en.json' : 'assets/json/articles.json';
+    const errorMessage = pageLang === 'en'
+        ? 'Error loading articles.'
+        : 'Errore nel caricamento degli articoli.';
+
+    fetch(dataPath)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Errore nel caricamento del file JSON');
@@ -58,6 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => {
             console.error('Errore:', error);
             const articlesRow = document.getElementById('articlesRow');
-            articlesRow.innerHTML = '<p class="text-danger">Errore nel caricamento degli articoli.</p>';
+            articlesRow.innerHTML = `<p class="text-danger">${errorMessage}</p>`;
         });
 });

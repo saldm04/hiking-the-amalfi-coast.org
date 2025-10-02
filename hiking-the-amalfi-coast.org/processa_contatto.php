@@ -18,6 +18,24 @@ header('Content-Type: application/json');
 $destinatario = "hikingtheamalficoast@gmail.com"; // Sostituisci con il tuo indirizzo email
 $oggetto_predefinito = "Nuovo Messaggio dal Sito Web";
 
+$lang = 'it';
+$messages = [
+    'it' => [
+        'unauthorized' => 'Accesso non autorizzato.',
+        'missing_fields' => 'Tutti i campi sono obbligatori.',
+        'invalid_email' => 'Indirizzo email non valido.',
+        'success' => 'Il tuo messaggio è stato inviato con successo!',
+        'error' => "C'è stato un errore nell'invio del tuo messaggio. Riprova più tardi."
+    ],
+    'en' => [
+        'unauthorized' => 'Unauthorized access.',
+        'missing_fields' => 'All fields are required.',
+        'invalid_email' => 'Invalid email address.',
+        'success' => 'Your message was sent successfully!',
+        'error' => 'There was an error sending your message. Please try again later.'
+    ]
+];
+
 // Funzione per sanificare i dati in input
 function sanitize_input($data) {
     return htmlspecialchars(stripslashes(trim($data)));
@@ -30,10 +48,14 @@ function is_valid_email($email) {
 
 // Verifica che il form sia stato inviato tramite POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (!empty($_POST["lang"]) && strtolower($_POST["lang"]) === 'en') {
+        $lang = 'en';
+    }
+
     // Verifica campo honeypot
     if (!empty($_POST["website"])) {
         // Possibile spammer, ignora o registra l'evento
-        echo json_encode(["status" => "error", "message" => "Accesso non autorizzato."]);
+        echo json_encode(["status" => "error", "message" => $messages[$lang]['unauthorized']]);
         exit;
     }
     // Recupera e sanifica i dati
@@ -44,12 +66,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Validazione dei dati
     if (empty($nome) || empty($email) || empty($oggetto) || empty($messaggio)) {
-        echo json_encode(["status" => "error", "message" => "Tutti i campi sono obbligatori."]);
+        echo json_encode(["status" => "error", "message" => $messages[$lang]['missing_fields']]);
         exit;
     }
 
     if (!is_valid_email($email)) {
-        echo json_encode(["status" => "error", "message" => "Indirizzo email non valido."]);
+        echo json_encode(["status" => "error", "message" => $messages[$lang]['invalid_email']]);
         exit;
     }
 
@@ -80,15 +102,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Body    = "Hai ricevuto un nuovo messaggio dal tuo sito web.\n\nNome: $nome\nEmail: $email\nOggetto: $oggetto\n\nMessaggio:\n$messaggio";
 
         $mail->send();
-        echo json_encode(["status" => "success", "message" => "Il tuo messaggio è stato inviato con successo!"]);
+        echo json_encode(["status" => "success", "message" => $messages[$lang]['success']]);
     } catch (Exception $e) {
         // Log degli errori (opzionale)
         // error_log("Errore invio email: " . $mail->ErrorInfo);
 
-        echo json_encode(["status" => "error", "message" => "C'è stato un errore nell'invio del tuo messaggio. Riprova più tardi."]);
+        echo json_encode(["status" => "error", "message" => $messages[$lang]['error']]);
     }
 } else {
     // Accesso diretto allo script senza invio del form
-    echo json_encode(["status" => "error", "message" => "Accesso non autorizzato."]);
+    echo json_encode(["status" => "error", "message" => $messages[$lang]['unauthorized']]);
 }
 ?>
